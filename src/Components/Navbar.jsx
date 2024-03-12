@@ -36,7 +36,7 @@ const Navbar = ({setSearch}) => {
          className="button mt-4 btn btn-outline-warning mx-3">Space</div>
       </div>
 
-      <div className="container my-4" style={{width:"480px"}}>
+      <div className="container my-4" style={{width:"350px"}}>
         <div className="mb-3" style={{display:"flex",alignItems:"center",justifyContent:"center",gap:"10px"}}>
           <input type="email"
           onChange={(e)=>setSearch(e.target.value)}
